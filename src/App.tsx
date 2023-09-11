@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import './App.css'
 import { AudioCilp } from './types'
 import Drum from './Drum';
@@ -65,7 +64,6 @@ function App() {
   };
 
 
-  const [count, setCount] = useState(0)
 
   return (
     <div className="container" id="drum-machine" onKeyDown={playAudio}>
